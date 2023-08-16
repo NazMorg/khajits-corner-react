@@ -2,7 +2,6 @@ import React from "react";
 import { useContext } from "react";
 import { cartDefaultContext } from "../../context/CartContext";
 import { Link, useNavigate } from "react-router-dom";
-import Checkout from "../Checkout/Checkout"
 
 function CartContainer() {
     const { cart, removeItem, clearCart, totalPrice } = useContext(cartDefaultContext);
