@@ -1,6 +1,6 @@
 # The Khajit's Corner - Aplicación de React
 
-"The Khajit's Corner" es una aplicación de ejemplo desarrollada con React en la que los usuarios pueden explorar los productos expuestos, filtrarlos por categorias, ver detalles y realizar compras simuladas.
+"The Khajit's Corner" es una aplicación de ejemplo desarrollada con React para el curso de ReactJS dictado en CoderHouse por el profesor Santiago Salkin en la comision 43305; en esta aplicación los usuarios pueden explorar los productos expuestos, filtrarlos por categorias, ver detalles y realizar compras simuladas.
 
 ## Tecnologías Utilizadas
 
