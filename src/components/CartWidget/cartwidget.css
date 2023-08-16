@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cartWidget {
+    display: flex;
+    flex-direction: column;
+}
+.cartWidget .icono img {
+    width: 50px;
+}
+
+.cartWidget .icono {
+    margin: 10px;
+}
+
+.cartWidget .quantityBubble {
+    background-color: #e9e9e9;
+    color: black;
+    border-radius: 50%;
+    padding: 1px 5px 1px 5px;
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.75rem;
+    box-shadow: 1px 1px 1px grey;
+}

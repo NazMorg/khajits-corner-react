@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.itemListContainer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.itemListContainer p {
+    margin: 8px;
+    padding: 4px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: black;
+}
+
+h2 {
+    font-style: oblique;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 5% 20% 5% 20%;
+    padding: 5px;
+    max-width: max-content;
+}
+
+.cardInfoDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.cardInfoTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #000000;
+    font-size: 25px;
+}
+
+.cardInfoDesc {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cardInfoPrice {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.counter, .addSubContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subButton, .addButton, .stockDisplay, .addToCartButton {
+    margin: 5px;
+    padding: 5px;
+}
