@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# The Khajit's Corner - Aplicación de React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"The Khajit's Corner" es una aplicación de ejemplo desarrollada con React en la que los usuarios pueden explorar los productos expuestos, filtrarlos por categorias, ver detalles y realizar compras simuladas.
 
-## Available Scripts
+## Tecnologías Utilizadas
 
-In the project directory, you can run:
+- **create-react-app**: Herramienta para generar una estructura de proyecto de React preconfigurada.
+- **react-router-dom**: Biblioteca para el enrutamiento de la aplicación.
+- **firebase**: Plataforma de desarrollo de aplicaciones que proporciona funciones de backend como base de datos en tiempo real y autenticación.
+- **react-toastify**: Librería para mostrar notificaciones estilo "toasts".
 
-### `npm start`
+## Clonar y Instalar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clona este repositorio en tu máquina local:
 
-### `npm test`
+En una git-bash ejecuta el comando:
+git clone https://github.com/NazMorg/khajits-corner-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navega al directorio del proyecto:
+cd khajits-corner-react
 
-### `npm run build`
+3. Instala las herramientas necesarias:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Haz un deploy local del proyecto:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deploy en Vercel
+https://khajits-corner-react.vercel.app/
